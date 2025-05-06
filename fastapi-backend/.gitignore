@@ -1,0 +1,51 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+.env
+.venv/
+
+# Environment variable files
+.env
+.env.*
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing
+htmlcov/
+coverage.xml
+.pytest_cache/
+.tox/
+
+# MyPy
+.mypy_cache/
+
+# Database
+*.sqlite3
+
+# Uvicorn reload file
+reload.*
+
+# Dependency folders
+__pypackages__/
+
+# Docker
+*.pid
+*.db
+*.sock
