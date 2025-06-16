@@ -4,12 +4,18 @@ Welcome to the Ascend AI Learning tool!
 
 ## 📁 Structure
 
-- `/frontend` — React + Vite + TypeScript frontend
-- `/fastapi-backend` — FastAPI backend
+- `/frontend` — React + Vite frontend
+- `/backend` — NodeJS backend
 
-Each folder has its own README with setup instructions.
 
 ## 🛠 Quick Start
+1. In main directory add .env
+    - MONGO_URI= *insert db string*
+    - JWT_SECRET=anystring1
+2. Navigate to `/frontend` 
+    - npm install
+1. Navigate to `/backend` 
+    - npm install
+    - npm run build-prod
+    - npm run dev
 
-1. Navigate to `/fastapi-backend` and follow setup instructions to start the API server.
-2. Navigate to `/frontend` and follow setup instructions to start the React app.
